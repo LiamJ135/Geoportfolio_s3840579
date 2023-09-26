@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+<head> <!--Contains Metadata only. Little needs to be changed in this section-->
+<meta charset="utf-8">
+<title>Geoportfolio</title> <!--Changes the name on the tab-->
+	<link rel="stylesheet" href="geoportfoliocss.css"> <!--#ID# #CSS# Put the name of your CSS document and file extension in href e.g. href="geoportfolio.css"-->
+	<link rel="icon" type="image/x-icon" href="favicon.png"> <!--#ID# #FAVICON# This changes the picture shown on the tab. Change the file name under href to your desired image e.g. href="favicon.png"-->
+</head>
+
+<body> <!--Everything in between <body> and </body> affects the display of your Geoportfolio and what is shown-->
+	<!--Start of navigation bar-->
+	<div id="sidebar" class="sidebar-animate-open" style="display:none"> <!--MUST BE AT TOP OF DOCUMENT-->
+		<button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+		<a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
+		<a href="#about" class="sidebar-menu-button mainbutton">About</a>
+		<a href="#academicinfo" class="sidebar-menu-button mainbutton">Academic Information</a>
+		<a href="#industryexperience" class="sidebar-menu-button mainbutton">Industry Experience</a>
+		<a href="#sap" class="sidebar-menu-button mainbutton">Skills and Proficiencies</a>
+		<a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
+		<div class="other-sidebar-info">
+			<table class="sidebar-contact-table"> 
+				<tr>
+					<td>
+						<a href="https://au.linkedin.com/" target="_blank"><img src="linkedin.png" class="sidebar-images"></a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page -->
+					</td>
+					<td>
+						<a href="https://au.linkedin.com/" target="_blank">LinkedIn</a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page-->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="https://twitter.com/RMIT" target="_blank"><img src="twitter.png" class="sidebar-images"></a>
+					</td>
+					<td>
+						<a href="https://twitter.com/RMIT" target="_blank">Twitter</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--End of navigation bar-->
+
+	<div class="header"> <!--Code for Header that opens the sidebar. DO NOT TOUCH-->
+		<button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+	</div>
+	
+	<div class="mapbgdiv" id="topofpage">
+		<img src="mapwelcomemod.jpg" alt="map" class="mapbg">
+		<div class="title">
+			<h1>Geoportfolio</h1>
+			<h2>Liam Jones</h2> <!-- #ID# #NAME# INSERT YOUR NAME HERE-->
+		</div>
+	</div>
+
+	<!--ABOUT-->
+	<div class="intro bar" id="about"><h2>About</h2></div> <!-- #ID# #INTROHEADING# Change the text of the introduction bar here-->
+	<div class="about">
+		This is my geoportfolio which was made for the subject Professional Practice (GEOMODO). The website contains information about what i have achieved in my 
+		4 years studying at RMIT.
+		<p>
+		Hi, My Name is Liam Jones and as of March 2023, I am in my fourth and final year of the 
+		Bachelor of Applied Science (Surveying) (Honours) course. My Surveying related interests is working with robotic total stations, collection and analysis of
+		spatial information, drafting survey plans and and being able to do so by getting out in the field. My current capstone research projects involes creating a
+		report about the use of Unmanned Survey Vessels (USV's) for hydrographic surveys. this is done via research of current scientific papers and by working with
+		a hydrographic survey company, Bintang Subsea who use their own USV to perform hydrpgraphic surveys.
+		<p>
+		My own personal hobbies include camping, travelling, fishing and working in the shed!
+		</p>	
+	<img src="pic_of_me.PNG" class="Portrait"> 
+	<!-- #ID# #SELFPORTRAIT# Change the img src name to match the name of your own self-portrait or delete my image and name your image the same name and place it in the same folder -->
+	</div>
+	
+	<!--ACADEMIC PORTFOLIO-->
+	<div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Academic Portfolio Overview</span>
+    </div>
+
+	<!--SUBJECT 1-->
+	
+	<div class="bar"><h2>Cadastral Surveying Law</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		Cadastral Surveying involves re-establishing title boundaries where tey were first set out when the boundary was first established.
+		This is extrememely important for the dimensions of property boundaries and showing land owners the extent of their ownership. this
+		process adopts a variety of skills including conducting field surveys, survey mathematics and drafting. These skills were applied 
+		assignments where a re-establishment of road allignments was need in the town of Talbot.
+		<ul>
+			<li>Practical 1: conduct a field survey of the crown allotment</li>
+			<li>Lab sessions: reducing and adjusting survey data, and re establishing road allignments</li>
+			<li>Draft a survey plan of re-establishemnt and report to justify the choices made</li>
+		</ul>
+		<p>
+			Below are the outputs of my work for the re-establishment assignment.
+		</p>
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+	<div class="bar"><h3>plan of Re-establishemnt survey</h3></div>
+	<img src="Cad_surv_abstract1.PNG" class="ls-image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<img src="Cad_surv_abstract2.PNG" class="ls-image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+
+	<!--SUBJECT 2-->
+
+	<div class="bar"><h2>Engineering Surveying (AGT)</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		Engineering surveying is a 4th year subject that focuses on the engineering side of surveying. This includes areas such as:
+		<ul>
+			<li>construction</li>
+			<li>mining (GIS)</li>
+			<li>Road design</li>
+		</ul>
+		<p>
+		When i was completing the subject, once key assignemt reuqired us to design and set out a road. Some off the steps taken include:
+		<ul>
+			<li>mathematical design of the road layout</li>
+			<li>draft and road design plan</li>
+			<li>set out the road design usng survey equipment</li>
+			<li>produce a report of the outcome of the project</li>
+		</ul>
+		</p>
+		<p>
+			The road design was created utilising feature survey information collected at the proposed site and was design to
+			meet certain key criteria. LISCAD was used to design the road and the computed design was important into CAD
+			software to form a road design plan and supporting set-out information. This information was then used to set out
+			the road using robotic total stations, tapes and other survey equipment. After the setout was complete, a report
+			commenting on the quality of the process was written.
+		</p>
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+
+	<div class="bar"><h3>Road setout: Plan View</h3></div>
+	<img src="set_out_plan.PNG" class="agt-survey"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Road setout: Long section view</h3></div>
+	<img src="set_out_long.PNG" class="agt-gis"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--INDUSTRY EXPERIENCE-->
+
+	<div class="pagetitle" id="industryexperience">
+        <span class="title-ul">Industry Experience</span>
+    </div>
+	<div class="academic-intro">
+		This page will briefly cover all my work experience (as of September 2023) within the sureying industry. My only experience was
+		had a Lewis Land Surveying (LLS) which is a small surveying company based in thomastown. I have worked at LLS for over 2 years
+		casually in between my university classes.
+	</div>
+
+	<!--COMPANY 1-->
+
+    <div class="bar"><h3>Lewis Land Surveying</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="AAM-logo.png" class="company-logo">
+	<div class="job-title">Assistant Surveyor</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">september 2021 - september 2023</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		I was lucky to get a position at Lewis Land Surveying in late 2021 through a friend who worked their and was also in my class at
+		university. At LLS my role was an assistant surveyor, which required me to to prepare the survey equipment for jobs, set-up and
+		operate the robotic total stations, draw sketches of the property under survey and its features and in some cases reduce data.
+		I quickly became confident in my role as an assistant and soon began to party lead survey jobs, and draft plans to be sent to
+		the client.
+		<p>
+		My work at LLS was invaluable to my learning and studies at university. Both the expereince i gained in the survey industry and
+		the theory helped one another as i was able to apply knowledge from both of these areas to further my learning.
+		</p>
+		<p>
+	</div>
+
+
+	<!--Skills and Proficiencies table-->
+	<div class="bar" style="top:57px" id="sap"><h2>Skills and Proficiencies</h2></div> <!-- #ID# #SKILLS# -->
+    <div class="skills">
+        <table class="icontable">
+            <tr>
+                <td><img src="Icons/surveyor-icon.png" class="iconimages"></td>
+				<td>Surveying</td>
+                <td><img src="Icons/QGIS-icon.png" class="iconimages"></td>
+				<td>Drafting</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/cartography-icon.png" class="iconimages"></td>
+				<td>Cartographic Principles</td>
+                <td><img src="Icons/adobe-illustrator.png" class="iconimages"></td>
+				<td>Adobe Illustrator</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/web-design.png" class="iconimages"></td>
+				<td>Web Design: HTML & CSS</td>
+                <td><img src="Icons/webgis.png" class="iconimages"></td>
+				<td>Web GIS</td>
+            </tr>
+        </table>
+    </div>
+
+	<!-- #ID# #CREDITS#-->
+	<div class="pagetitle" id="credits">
+        <span class="title-ul">Credits and Attributions</span>
+    </div>
+    
+    <div class="academic-intro">
+       <b> The following programming languages and software were used to create the website</b>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Visual Studio Basic</li>
+        </ul>
+       <b>The deliverables contains content from the following subjects:</b>
+        <ul>
+            <li>Cadastral Surveying Law</li>
+            <li>Engineering and Construction Surveying</li>
+        </ul>
+       <b>Special thanks to the following people who have helped me make this website with their expertise and guidance:</b>
+        <ul>
+            <li>Chayn Sun</li>
+            <li>Nicholas Lee</li>
+            <li><a href="https://www.w3schools.com/">W3Schools</a> and <a href="https://stackoverflow.com/">Stack Overflow</a> (a lot!)</li>
+            <li><a href="https://www.flaticon.com/">Flaticon</a></li>
+        </ul>
+        As per the policy of using the Flaticons with a free account, the attributions and crediting of the creators of the icons are as below:
+		
+	<div class="bar"><h2>Attributions of icons used:</h2></div>
+    <table id="attribution-table">
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/people" title="database icons">Database icons created by Stockio - Flaticon</a></th>
+            <th><img src="Icons/surveyor-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/draw" title="draw icons">Draw icons created by monkik - Flaticon</a></th>
+            <th><img src="Icons/cartography-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/web-design.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/web-site" title="web site icons">Web site icons created by wanicon - Flaticon</a></th>
+            <th><img src="Icons/webgis.png" class="icon-attribute"></th>
+        </tr>
+    </table>
+	</div>
+
+
+
+	<div class="footer"> <!-- #ID# #FOOTER# -->
+		<div class="compilationinformation"> <!-- #ID# #COMPINFO# -->
+			<b>Compilation information</b>
+			<br>Website made in Adobe Dreamweaver and Visual Studio Code.
+			<br>HTML and CSS code written by Odeo as part of undergraduate Professional Practice course (GEOMOD10).
+		</div>
+		<table class="contacttable">
+			<caption><h2>Contact Information</h2></caption>
+			<tr>
+				<th><img src="mappin.png" alt="pointer" class="contactimages"></th>
+				<th><img src="mail.png" alt="email" class="contactimages"></th>
+				<th><img src="phone.png" alt="phone" class="contactimages"></th>
+			</tr>
+			<tr>
+				<th>
+					Work address:
+					<br>742 Evergreen Terrace, Springfield, Oregon, 97403</th>
+				<th>
+					Email Liam Jones here:
+					<br><a href = "s3840579@student.rmit.edu.au">s3840579@student.rmit.edu.au</a>
+				</th>
+				<th>Mobile:
+					<br>0417 833 228
+				</th>
+			</tr>
+		</table>
+	</div>
+</body>
+<script> //Code for opening and closing sidebar. DO NOT TOUCH OR EDIT THIS AS THIS IS WHAT WORKS THE SIDEBAR NAVIGATION
+    function open_sidebar() {
+      document.getElementById("sidebar").style.display = "block";
+    }
+    function close_sidebar() {
+      document.getElementById("sidebar").style.display = "none";
+    }
+</script>
+</html>
